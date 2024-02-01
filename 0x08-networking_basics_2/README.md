@@ -38,3 +38,7 @@ Connecting to localhost on port 98 using telnet and typing some text.
 Terminal 0
 
 Receiving the text on the other side.
+
+## NETWORKING BASICS
+
+![POLAND](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/285/s7kpNYq.png)
