@@ -1,4 +1,4 @@
-# Alx-system_engineering-devops
+# alx-system_engineering-devops
 
 ## This repository covers the shell basics
 
@@ -27,4 +27,6 @@ are all executable programs files? YES
 This repository contains interpreted executable programs, written by me to perform specific functions.
 These executable files are organized into directories per their functions.
 
+## AUTHORS:
+Brendon Jeje <jejebrendon722@gmail.com>
 ![KSKSKKS](https://happycoding.io/tutorials/html/images/rainbow-logo-2.png)
