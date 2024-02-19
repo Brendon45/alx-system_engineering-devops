@@ -1,6 +1,6 @@
 # alx-system_engineering-devops
 
-## This repository covers the shell basics
+## This repository covers the shell basics and advanced.
 
 ## Engineering Devops Directories
 
