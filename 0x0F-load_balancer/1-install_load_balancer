@@ -40,8 +40,8 @@ frontend tendai-tech-frontend
 
 backend tendai-tech-backend
     balance roundrobin
-    server 469644-web-01 35.174.185.85 check
-    server 469644-web-02 100.25.222.44 check
+    server 469644-web-01 35.174.185.85:80 check
+    server 469644-web-02 100.25.222.44:80 check
 "
 
 # shellcheck disable=SC2154
