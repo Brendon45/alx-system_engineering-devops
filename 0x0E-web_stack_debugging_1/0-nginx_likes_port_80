@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# configures a server to listening on port 80 of all server's active IPv4 IPs
+
+# Create a symbolic link from the default Nginx site configuration file to the sites-enabled directory
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+
+# Restart the Nginx service to apply the changes
+sudo service nginx restart
