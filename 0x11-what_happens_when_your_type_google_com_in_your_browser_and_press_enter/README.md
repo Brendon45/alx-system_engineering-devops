@@ -16,8 +16,6 @@
 
 ![NETWORK](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/298/aJPw3mw.jpg)
 
-![NETWORK](http://i.imgur.com/R8R3sqC.png)
-
 ## Requirements
 
 ## General
@@ -69,6 +67,8 @@ The diagram should show:
 - Some unrelated examples:
 
 ![NETWORK](http://i.imgur.com/i9ivkdo.png)
+
+![NETWORK](http://i.imgur.com/R8R3sqC.png)
 
 ## 2. Contribute!
 #advanced
