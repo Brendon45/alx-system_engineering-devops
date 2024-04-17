@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+day=$(date +"%d")
+month=$(date +"%m")
+year=$(date +"%Y")
+filename="$day-$month-$year.tar.gz"
+mysqldump --all-databases -u root --password="$1" > backup.sql
+tar -czvf "$filename" backup.sql
