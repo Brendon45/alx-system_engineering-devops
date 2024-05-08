@@ -78,3 +78,24 @@ mandatory
 
 - Set up a monitor that checks the number of read requests issued to the device per second.
 - Set up a monitor that checks the number of write requests issued to the device per second.
+
+Repo:
+
+	- GitHub repository: alx-system_engineering-devops
+	- Directory: 0x18-webstack_monitoring
+
+## 2. Create a dashboard
+
+mandatory
+
+Now create a dashboard with different metrics displayed in order to get a few different visualizations.
+
+	- Create a new dashboard
+	- Add at least 4 widgets to your dashboard. They can be of any type and monitor whatever you’d like
+	- Create the answer file 2-setup_datadog which has the dashboard_id on the first line. Note: in order to get the id of your dashboard, you may need to use Datadog’s API
+
+Repo:
+
+	- GitHub repository: alx-system_engineering-devops
+	- Directory: 0x18-webstack_monitoring
+	- File: 2-setup_datadog
