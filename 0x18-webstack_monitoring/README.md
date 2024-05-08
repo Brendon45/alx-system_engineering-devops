@@ -49,17 +49,32 @@
 
 ## Tasks
 
-0. Sign up for Datadog and install datadog-agent
+## 0. Sign up for Datadog and install datadog-agent
 
 mandatory
 
 - For this task head to https://www.datadoghq.com/ and sign up for a free Datadog account. When signing up, you’ll have the option of selecting statistics from your current stack that Datadog can monitor for you. Once you have an account set up, follow the instructions given on the website to install the Datadog agent.
 ![DATALOG](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/6/6b0ea6345a6375437845.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240508%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240508T070114Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=666a6694a88c2f0caaf3c2731769546bede5c157e12856c8673496ca8f329996)
 - Sign up for Datadog - Please make sure you are using the US website of Datagog (https://app.datadoghq.com)
-Use the US1 region
-Install datadog-agent on web-01
+- Use the US1 region
+- Install datadog-agent on web-01
 Create an application key
-Copy-paste in your Intranet user profile (here) your DataDog API key and your DataDog application key.
-Your server web-01 should be visible in Datadog under the host name XX-web-01
-You can validate it by using this API
-If needed, you will need to update the hostname of your server
+- Copy-paste in your Intranet user profile (here) your DataDog API key and your DataDog application key.
+- Your server web-01 should be visible in Datadog under the host name XX-web-01
+	- You can validate it by using this API
+	- If needed, you will need to update the hostname of your server
+
+Repo:
+	- GitHub repository: alx-system_engineering-devops
+	- Directory: 0x18-webstack_monitoring
+
+## 1. Monitor some metrics
+
+mandatory
+
+- Among the litany of data your monitoring service can report to you are system metrics. You can use these metrics to determine statistics such as reads/writes per second, which can help your company determine if/how they should scale. Set up some monitors within the Datadog dashboard to monitor and alert you of a few. You can read about the various system metrics that you can monitor here: System Check.
+
+![SYSTEM](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/6/6a4551974aadc181e97a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240508%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240508T070115Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=693bdc746a7ab743da177dcca925f842823d387007c8eb9eec9f5a23b3094585)
+
+- Set up a monitor that checks the number of read requests issued to the device per second.
+- Set up a monitor that checks the number of write requests issued to the device per second.
