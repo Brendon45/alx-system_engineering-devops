@@ -21,5 +21,12 @@
 ## Resources
 
 - Read or watch:
+	- [Application server vs web server](#application-server-vs-web-server)
+	- [How to Serve a Flask Application with Gunicorn and Nginx on Ubuntu 16.04](#how-to-serve-a-flask-application-with-gunicorn-and-nginx-on-ubuntu-16.04)
+	- [Running Gunicorn](#running-gunicorn)
+	- [Be careful with the way Flask manages slash in route - strict_slashes](#be-careful-with-the-way-flask-manages-slash-in-route-strict_slashes)
+	- [Upstart documentation](#upstart-documentation)
+
+## Requirements
 
 
