@@ -17,7 +17,7 @@ sudo apt-get install -y gunicorn
 rm -rf AirBnB_clone_v*
 # Clone My Repository
 git clone https://github.com/Brendon45/AirBnB_clone_v2
-git clone https://github.com/Brenndon45/AirBnB_clone_v3
+git clone https://github.com/Brendon45/AirBnB_clone_v3
 git clone https://github.com/Brendon45/AirBnB_clone_v4
 # Change Directory
 cd AirBnB_clone_v2
