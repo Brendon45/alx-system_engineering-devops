@@ -3,9 +3,9 @@
 1. lsb_realese -a : to show the version of ubuntu. In this case we are supposed to work our debugging tasks on Ubuntu 14.04.6 LTS.
 2. sudo apt-get update: to get the latest update
 3. sudo apt-get install apache2-utils :  Installs Apache2 Utilities package with various useful tools for managing Apache HTTP server.
-4. sudo vim /etc/default/nginx: 
+4. sudo vim /etc/default/nginx:  Opens the Nginx configuration file in the Vim text editor with root permissions, allowing you to modify Nginx settings. Do not change anything in the default, run the puppet script first:  [puppet apply 0-the_sky_is_the_limit_not.pp] and it will change automatically
 
-## Puppet script for task 0:
+Puppet script for task 0:
 
 # Fix nginx to accept and serve more requests
 
