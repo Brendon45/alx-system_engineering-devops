@@ -35,3 +35,22 @@ exec {'modify max open files limit setting':
 - Opens the limits.conf file for editing using the Vi text editor.
 - This file is used to set resource limits and controls for users and groups on a Linux system, including limits on CPU time, memory usage, and file access.
 - Note: Do not change or edit in this file as requires root (sudo) privileges. 
+
+Puppet script for Task 1:
+
+# Enable the user holberton to login and open files without error.
+
+# Increase hard file limit for Holberton user.
+exec { 'increase-hard-file-limit-for-holberton-user':
+  command => 'sed -i "/holberton hard/s/5/50000/" /etc/security/limits.conf',
+  path    => '/usr/local/bin/:/bin/'
+}
+
+# Increase soft file limit for Holberton user.
+exec { 'increase-soft-file-limit-for-holberton-user':
+  command => 'sed -i "/holberton soft/s/4/50000/" /etc/security/limits.conf',
+  path    => '/usr/local/bin/:/bin/'
+}
+
+2. Run : [puppet apply 1-user_limit.pp] to execute you script and make changes.
+3. Run : [su - holberton] to log in as holberton.
