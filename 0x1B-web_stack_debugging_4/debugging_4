@@ -27,3 +27,11 @@ exec {'modify max open files limit setting':
   command => 'sed -i "s/15/10000/" /etc/default/nginx && sudo service nginx restart',
   path    => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games',
 }
+
+# 1-user_limit.pp
+
+1. vi /etc/security/limits.conf:
+
+- Opens the limits.conf file for editing using the Vi text editor.
+- This file is used to set resource limits and controls for users and groups on a Linux system, including limits on CPU time, memory usage, and file access.
+- Note: Do not change or edit in this file as requires root (sudo) privileges. 
