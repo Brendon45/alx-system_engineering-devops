@@ -22,7 +22,7 @@ git clone https://github.com/Brendon45/AirBnB_clone_v4
 # Change Directory
 cd AirBnB_clone_v2
 # Switch Branches
-git checkout -b app-server
+git checkout app-server
 
 # Define the path to the Nginx configuration file to be overwritten
 NGINX_CONFIG="/etc/nginx/sites-enabled/default"
@@ -77,6 +77,6 @@ tmux new-session -d 'gunicorn --bind 0.0.0.0:5002 api.v1.app:app'
 
 # Setup tmux session for task 5
 cd /home/ubuntu/AirBnB_clone_v4
-git checkout -b app-server
+git checkout app-server
 
 echo "Done !!!!"
