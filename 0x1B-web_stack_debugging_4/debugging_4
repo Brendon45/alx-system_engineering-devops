@@ -1,0 +1,15 @@
+# 0-the_sky_is_the_limit_not.pp
+
+1. lsb_realese -a : to show the version of ubuntu. In this case we are supposed to work our debugging tasks on Ubuntu 14.04.6 LTS.
+2. sudo apt-get update: to get the latest update
+3. sudo apt-get install apache2-utils :  Installs Apache2 Utilities package with various useful tools for managing Apache HTTP server.
+4. sudo vim /etc/default/nginx: 
+
+## Puppet script for task 0:
+
+# Fix nginx to accept and serve more requests
+
+exec {'modify max open files limit setting':
+  command => 'sed -i "s/15/10000/" /etc/default/nginx && sudo service nginx restart',
+  path    => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games',
+}
